@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">sharedPrefernece</string>
+    <string name="EdUserNameHint">enter user name</string>
+    <string name="EdPasswordHint">enter password</string>
+    <string name="BvLoginText">Login</string>
+    <string name="TvUserName">User Name</string>
+    <string name="TvDisplayUserNameWelcome">Welcome</string>
+    <string name="BvDisplayUserNameWelcome">LogOut</string>
+</resources>

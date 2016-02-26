@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/RLWlecome"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/TVWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TvDisplayUserNameWelcome"
+        android:layout_gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:id="@+id/TVdispay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/TVWelcome"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="LogOut"
+    android:layout_below="@+id/TVdispay"
+    android:onClick="SharedpreferenceClear"/>
+</RelativeLayout>
